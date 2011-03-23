@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7906CA49133A32FF0007C9D0 /* PLInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA48133A32FF0007C9D0 /* PLInvocationHandler.m */; };
+		7906CA4D133A372A0007C9D0 /* libfcgi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7906CA4C133A372A0007C9D0 /* libfcgi.dylib */; };
+		7906CA9D133BAC180007C9D0 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA94133BAC180007C9D0 /* NSObject+SBJSON.m */; };
+		7906CA9E133BAC180007C9D0 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA96133BAC180007C9D0 /* NSString+SBJSON.m */; };
+		7906CA9F133BAC180007C9D0 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA98133BAC180007C9D0 /* SBJsonBase.m */; };
+		7906CAA0133BAC180007C9D0 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA9A133BAC180007C9D0 /* SBJsonParser.m */; };
+		7906CAA1133BAC180007C9D0 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA9C133BAC180007C9D0 /* SBJsonWriter.m */; };
+		7906CAA5133BBB480007C9D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79441AE6133A10F000980FE8 /* main.m */; };
+		7906CAA6133BBB480007C9D0 /* PLInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA48133A32FF0007C9D0 /* PLInvocationHandler.m */; };
+		7906CAA7133BBB480007C9D0 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA94133BAC180007C9D0 /* NSObject+SBJSON.m */; };
+		7906CAA8133BBB480007C9D0 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA96133BAC180007C9D0 /* NSString+SBJSON.m */; };
+		7906CAA9133BBB480007C9D0 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA98133BAC180007C9D0 /* SBJsonBase.m */; };
+		7906CAAA133BBB480007C9D0 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA9A133BAC180007C9D0 /* SBJsonParser.m */; };
+		7906CAAB133BBB480007C9D0 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906CA9C133BAC180007C9D0 /* SBJsonWriter.m */; };
+		7906CAAD133BBB480007C9D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79441AE3133A10F000980FE8 /* Foundation.framework */; };
+		7906CAAE133BBB480007C9D0 /* libfcgi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7906CA4C133A372A0007C9D0 /* libfcgi.dylib */; };
+		7906CABF133BC6EA0007C9D0 /* Web in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7906CABD133BC6AD0007C9D0 /* Web */; };
+		7906CAC8133BCA7F0007C9D0 /* WebFastCGI-bin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7906CAC4133BC9300007C9D0 /* WebFastCGI-bin */; };
+		79441AE4133A10F000980FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79441AE3133A10F000980FE8 /* Foundation.framework */; };
+		79441AE7133A10F000980FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79441AE6133A10F000980FE8 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7906CAAF133BBB480007C9D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /Users/patcollins/bin;
+			dstSubfolderSpec = 0;
+			files = (
+				7906CAC8133BCA7F0007C9D0 /* WebFastCGI-bin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79441ADD133A10F000980FE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /Users/patcollins/bin;
+			dstSubfolderSpec = 0;
+			files = (
+				7906CABF133BC6EA0007C9D0 /* Web in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7906CA47133A32FF0007C9D0 /* PLInvocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInvocationHandler.h; sourceTree = "<group>"; };
+		7906CA48133A32FF0007C9D0 /* PLInvocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInvocationHandler.m; sourceTree = "<group>"; };
+		7906CA4C133A372A0007C9D0 /* libfcgi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfcgi.dylib; path = usr/lib/libfcgi.dylib; sourceTree = SDKROOT; };
+		7906CA91133BAAFC0007C9D0 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7906CA93133BAC180007C9D0 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7906CA94133BAC180007C9D0 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7906CA95133BAC180007C9D0 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7906CA96133BAC180007C9D0 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7906CA97133BAC180007C9D0 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7906CA98133BAC180007C9D0 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7906CA99133BAC180007C9D0 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7906CA9A133BAC180007C9D0 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7906CA9B133BAC180007C9D0 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7906CA9C133BAC180007C9D0 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7906CAB4133BBB480007C9D0 /* WebFastCGI-bin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "WebFastCGI-bin"; path = "/Users/patcollins/git/Web/Web/build/Release/WebFastCGI-bin"; sourceTree = "<absolute>"; };
+		7906CABD133BC6AD0007C9D0 /* Web */ = {isa = PBXFileReference; lastKnownFileType = text; path = Web; sourceTree = BUILT_PRODUCTS_DIR; };
+		7906CAC2133BC7E80007C9D0 /* .htaccess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		7906CAC3133BC7E80007C9D0 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		7906CAC4133BC9300007C9D0 /* WebFastCGI-bin */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WebFastCGI-bin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79441ADF133A10F000980FE8 /* Web */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Web; path = /Users/patcollins/git/Web/Web/build/Release/Web; sourceTree = "<absolute>"; };
+		79441AE3133A10F000980FE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79441AE6133A10F000980FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79441AE9133A10F000980FE8 /* Web-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Web-Prefix.pch"; sourceTree = "<group>"; };
+		79441AEA133A10F000980FE8 /* Web.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Web.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7906CAAC133BBB480007C9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7906CAAD133BBB480007C9D0 /* Foundation.framework in Frameworks */,
+				7906CAAE133BBB480007C9D0 /* libfcgi.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79441ADC133A10F000980FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79441AE4133A10F000980FE8 /* Foundation.framework in Frameworks */,
+				7906CA4D133A372A0007C9D0 /* libfcgi.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7906CA92133BAB000007C9D0 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7906CA91133BAAFC0007C9D0 /* JSON.h */,
+				7906CA93133BAC180007C9D0 /* NSObject+SBJSON.h */,
+				7906CA94133BAC180007C9D0 /* NSObject+SBJSON.m */,
+				7906CA95133BAC180007C9D0 /* NSString+SBJSON.h */,
+				7906CA96133BAC180007C9D0 /* NSString+SBJSON.m */,
+				7906CA97133BAC180007C9D0 /* SBJsonBase.h */,
+				7906CA98133BAC180007C9D0 /* SBJsonBase.m */,
+				7906CA99133BAC180007C9D0 /* SBJsonParser.h */,
+				7906CA9A133BAC180007C9D0 /* SBJsonParser.m */,
+				7906CA9B133BAC180007C9D0 /* SBJsonWriter.h */,
+				7906CA9C133BAC180007C9D0 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		7906CAA2133BBAC20007C9D0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				7906CA92133BAB000007C9D0 /* JSON */,
+				7906CA4C133A372A0007C9D0 /* libfcgi.dylib */,
+				7906CA47133A32FF0007C9D0 /* PLInvocationHandler.h */,
+				7906CA48133A32FF0007C9D0 /* PLInvocationHandler.m */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		7906CAC0133BC7700007C9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7906CABD133BC6AD0007C9D0 /* Web */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7906CAC1133BC7E80007C9D0 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				7906CAC2133BC7E80007C9D0 /* .htaccess */,
+				7906CAC3133BC7E80007C9D0 /* index.php */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		79441AD4133A10F000980FE8 = {
+			isa = PBXGroup;
+			children = (
+				7906CAC1133BC7E80007C9D0 /* public */,
+				7906CAA2133BBAC20007C9D0 /* Dependencies */,
+				79441AE5133A10F000980FE8 /* Web */,
+				79441AE2133A10F000980FE8 /* Frameworks */,
+				7906CAC0133BC7700007C9D0 /* Products */,
+				7906CAC4133BC9300007C9D0 /* WebFastCGI-bin */,
+			);
+			sourceTree = "<group>";
+		};
+		79441AE2133A10F000980FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79441AE3133A10F000980FE8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79441AE5133A10F000980FE8 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				79441AE6133A10F000980FE8 /* main.m */,
+				79441AEA133A10F000980FE8 /* Web.1 */,
+				79441AE8133A10F000980FE8 /* Supporting Files */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		79441AE8133A10F000980FE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79441AE9133A10F000980FE8 /* Web-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7906CAA3133BBB480007C9D0 /* WebFastCGI-bin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7906CAB1133BBB480007C9D0 /* Build configuration list for PBXNativeTarget "WebFastCGI-bin" */;
+			buildPhases = (
+				7906CAA4133BBB480007C9D0 /* Sources */,
+				7906CAAC133BBB480007C9D0 /* Frameworks */,
+				7906CAAF133BBB480007C9D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebFastCGI-bin";
+			productName = Web;
+			productReference = 7906CAB4133BBB480007C9D0 /* WebFastCGI-bin */;
+			productType = "com.apple.product-type.tool";
+		};
+		79441ADE133A10F000980FE8 /* Web */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79441AED133A10F000980FE8 /* Build configuration list for PBXNativeTarget "Web" */;
+			buildPhases = (
+				79441ADB133A10F000980FE8 /* Sources */,
+				79441ADC133A10F000980FE8 /* Frameworks */,
+				79441ADD133A10F000980FE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Web;
+			productName = Web;
+			productReference = 79441ADF133A10F000980FE8 /* Web */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79441AD6133A10F000980FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ShowClix;
+			};
+			buildConfigurationList = 79441AD9133A10F000980FE8 /* Build configuration list for PBXProject "Web" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79441AD4133A10F000980FE8;
+			productRefGroup = 79441AD4133A10F000980FE8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79441ADE133A10F000980FE8 /* Web */,
+				7906CAA3133BBB480007C9D0 /* WebFastCGI-bin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7906CAA4133BBB480007C9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7906CAA5133BBB480007C9D0 /* main.m in Sources */,
+				7906CAA6133BBB480007C9D0 /* PLInvocationHandler.m in Sources */,
+				7906CAA7133BBB480007C9D0 /* NSObject+SBJSON.m in Sources */,
+				7906CAA8133BBB480007C9D0 /* NSString+SBJSON.m in Sources */,
+				7906CAA9133BBB480007C9D0 /* SBJsonBase.m in Sources */,
+				7906CAAA133BBB480007C9D0 /* SBJsonParser.m in Sources */,
+				7906CAAB133BBB480007C9D0 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79441ADB133A10F000980FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79441AE7133A10F000980FE8 /* main.m in Sources */,
+				7906CA49133A32FF0007C9D0 /* PLInvocationHandler.m in Sources */,
+				7906CA9D133BAC180007C9D0 /* NSObject+SBJSON.m in Sources */,
+				7906CA9E133BAC180007C9D0 /* NSString+SBJSON.m in Sources */,
+				7906CA9F133BAC180007C9D0 /* SBJsonBase.m in Sources */,
+				7906CAA0133BAC180007C9D0 /* SBJsonParser.m in Sources */,
+				7906CAA1133BAC180007C9D0 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7906CAB2133BBB480007C9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Web/Web-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					FASTCGI,
+				);
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7906CAB3133BBB480007C9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Web/Web-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = FASTCGI;
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79441AEB133A10F000980FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		79441AEC133A10F000980FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		79441AEE133A10F000980FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Web/Web-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79441AEF133A10F000980FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Web/Web-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7906CAB1133BBB480007C9D0 /* Build configuration list for PBXNativeTarget "WebFastCGI-bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7906CAB2133BBB480007C9D0 /* Debug */,
+				7906CAB3133BBB480007C9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79441AD9133A10F000980FE8 /* Build configuration list for PBXProject "Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79441AEB133A10F000980FE8 /* Debug */,
+				79441AEC133A10F000980FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79441AED133A10F000980FE8 /* Build configuration list for PBXNativeTarget "Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79441AEE133A10F000980FE8 /* Debug */,
+				79441AEF133A10F000980FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79441AD6133A10F000980FE8 /* Project object */;
+}
